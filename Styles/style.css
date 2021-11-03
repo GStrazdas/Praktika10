@@ -1,0 +1,78 @@
+.srytis {
+	background-color: white;
+	max-width: 70%;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+header img {
+	height: 2rem;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.3rem;
+}
+header nav a {
+	color: black;
+}
+header nav a:not(:last-child) {
+	margin-right: 2rem;
+}
+main {
+	background-image: url("https://www.lrt.lt/img/2020/01/07/579450-662551-756x425.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+section {
+	padding: 1rem;
+}
+section img {
+	max-width: 21rem;
+	float: left;
+	margin-right: 0.5rem;
+}
+.zalias_tekstas {
+	color: rgb(21, 153, 21);
+}
+footer p {
+	text-align: center;
+}
+form label {
+	font-weight: bold;
+}
+form input,
+textarea {
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 0.5rem;
+	width: 100%;
+	padding: 0.3rem 0.5rem;
+}
+.mygtukas {
+	background-color: rgb(21, 153, 21);
+	color: whitesmoke;
+	padding: 0.3rem;
+	border-radius: 0.3rem;
+	width: 50%;
+	margin-top: 0.3rem;
+	cursor: pointer;
+}
+table {
+	width: 100%;
+	margin-top: 3rem;
+	text-align: center;
+}
+table,
+th,
+td {
+	border: 1px solid lightgray;
+	border-collapse: collapse;
+	padding: 0.2rem;
+}
+table td:first-child {
+	color: rgb(21, 153, 21);
+	font-weight: bold;
+}
